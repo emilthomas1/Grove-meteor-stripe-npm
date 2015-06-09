@@ -5,7 +5,7 @@ Package.describe({
 	git: "https://github.com/grovelabs/meteor-stripe-npm.git"
 });
 
-Npm.depends({ "stripe": "2.8.0" });
+Npm.depends({ "stripe": "3.3.4" });
 
 Package.onUse(function (api) {
   api.addFiles('npm.stripe.js', 'server');
